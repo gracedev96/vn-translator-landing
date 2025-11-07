@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VN Translator</title>
+  <meta name="description" content="Placeholder description for VN Translator. Replace this with a short pitch for your app.">
+  <meta property="og:title" content="VN Translator">
+  <meta property="og:description" content="Placeholder description for VN Translator.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.svg">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <img src="assets/logo.svg" alt="VN Translator logo" class="logo">
+      <h1>VN Translator</h1>
+      <p class="tagline">Translate text, conversations, games, mangas.</p>
+
+      <div class="cta">
+        <!-- Replace the id with your real App Store ID -->
+        <a class="appstore-badge" href="https://apps.apple.com/app/id0000000000" target="_blank" rel="noopener" aria-label="Download on the App Store">
+          <img src="assets/app-store-badge.svg" alt="Download on the App Store" height="44" loading="lazy" width="auto">
+        </a>
+      </div>
+
+      <nav class="legal-links">
+        <a class="link-btn" href="privacy.html">Privacy Policy</a>
+        <a class="link-btn" href="terms.html">Terms of Use</a>
+      </nav>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> VN Translator</p>
+    <div class="legal-note">App Store is a service mark of Apple Inc., registered in the U.S. and other countries.</div>
+</footer>
+
+  <script>
+    // Keep the year current
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
